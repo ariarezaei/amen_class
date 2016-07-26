@@ -1,0 +1,48 @@
+Class = 1
+Rank:
+1	Kids & Family	0.0619	0.0132	0.0000
+2	3-6 Years	0.0150	0.0275	0.0000
+3	7-9 Years	0.0084	0.0414	0.0002
+4	10-12 Years	0.0061	0.0797	0.0010
+5	Christian Video	0.0053	0.0948	0.0027
+6	Bible	0.0052	0.1090	0.0028
+7	Cartoon Network	0.0050	0.1140	0.0019
+8	Religion & Spirituality	0.0042	0.1523	0.0030
+9	Clifford	0.0064	0.1566	0.0879
+10	Greatest Adventure Stories from the Bible	0.0044	0.1566	0.0182
+11	Warner Home Video	0.0039	0.1764	0.0008
+12	Warner Video Bargains	0.0039	0.1888	0.0008
+13	Educational	0.0034	0.1992	0.0016
+14	Dr. Seuss	0.0040	0.2314	0.0741
+15	Nickelodeon	0.0025	0.2481	0.0209
+16	Sony Pictures Home Entertainment	0.0039	0.2545	0.0702
+17	Dragon Tales	0.0039	0.2688	0.0722
+18	Scooby-Doo	0.0018	0.2697	0.0136
+19	Languages	0.0013	0.3054	0.0161
+20	Magic School Bus	0.0016	0.3061	0.0330
+
+
+Class = 2
+Rank:
+1	Comedy	0.0116	0.0567	0.0011
+2	Musicals & Performing Arts	0.0116	0.0571	0.0005
+3	Drama	0.0088	0.0858	0.0008
+4	VHS	0.0141	0.1027	0.0616
+5	Musicals	0.0080	0.1101	0.0008
+6	Mystery & Suspense	0.0074	0.1363	0.0089
+7	Mystery	0.0056	0.1727	0.0093
+8	Classic Comedies	0.0056	0.1867	0.0052
+9	Science Fiction & Fantasy	0.0026	0.2576	0.0093
+10	Ma & Pa Kettle	0.0036	0.2962	0.0749
+11	Romance	0.0018	0.3006	0.0058
+12	Detectives	0.0028	0.3118	0.0717
+13	The Thin Man	0.0021	0.3139	0.0473
+14	Sesame Street Videos	0.0017	0.3301	0.0160
+15	Sesame Street	0.0017	0.3520	0.0158
+16	Slapstick	0.0015	0.3904	0.0271
+17	Suspense	0.0010	0.3922	0.0056
+18	Videos and DVDs for Babies and Toddlers	0.0015	0.3951	0.0430
+19	Puppets	0.0010	0.4546	0.0339
+20	Literature & Poetry	0.0003	0.4954	0.0326
+
+

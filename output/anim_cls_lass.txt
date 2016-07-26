@@ -1,0 +1,46 @@
+Class 1
+Kids & Family	1.8836
+Nickelodeon	0.7241
+Educational	0.4015
+Dinosaurs	0.3421
+Dr. Seuss	0.3384
+Holidays & Festivals	0.3097
+Infantil y familiar	0.3093
+7-9 Years	0.3066
+Dragon Tales	0.2430
+Religion & Spirituality	0.2428
+Franklin	0.2191
+Batman Beyond	0.2023
+Magic School Bus	0.2017
+Bible	0.1953
+3-6 Years	0.1904
+Tom & Jerry	0.1510
+Clifford	0.1465
+Independently Distributed	0.1347
+Learning Languages	0.1213
+Leaders	0.1208
+
+
+Class 2
+Drama	0.9682
+Musicals & Performing Arts	0.6575
+Comedy	0.5963
+Westerns	0.3849
+Action & Adventure	0.3781
+Sesame Street Videos	0.2986
+Mystery & Suspense	0.2199
+Cartoon Network	0.1906
+Orphans	0.1825
+French	0.1724
+Disney Home Video	0.1599
+Childhood Drama	0.1593
+Scooby-Doo	0.1472
+Sesame Street	0.1468
+Shalom Sesame	0.1404
+Music Videos	0.1389
+Art House & International	0.1320
+Adventure	0.1246
+Ralph Bakshi	0.1215
+Horses	0.1183
+
+

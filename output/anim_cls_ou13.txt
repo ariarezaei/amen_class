@@ -1,0 +1,28 @@
+Class = 1
+Rank:
+1	Kids & Family	19.0000	0.0129
+2	3-6 Years	25.0000	0.0263
+3	7-9 Years	21.0000	0.0413
+4	Clifford	121.0000	0.1262
+5	10-12 Years	26.0000	0.0788
+6	Cartoon Network	20.0000	0.0987
+7	Christian Video	51.0000	0.1089
+8	Bible	2.0000	0.1250
+9	Series	12.0000	0.1549
+10	Greatest Adventure Stories from the Bible	106.0000	0.1848
+
+
+Class = 2
+Rank:
+1	VHS	16.0000	0.1135
+2	Musicals & Performing Arts	23.0000	0.0473
+3	Comedy	36.0000	0.0633
+4	Drama	6.0000	0.0811
+5	Musicals	24.0000	0.1070
+6	Mystery & Suspense	60.0000	0.1453
+7	Mystery	11.0000	0.1845
+8	Classic Comedies	37.0000	0.1866
+9	Series & Sequels	64.0000	0.1990
+10	Ma & Pa Kettle	119.0000	0.3118
+
+

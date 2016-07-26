@@ -1,0 +1,26 @@
+Class 1
+Videos for Babies and Toddlers	1.9686	0.0312
+Kids & Family	1.4152	0.0020
+Charlie Brown & Peanuts	1.2895	0.0023
+Mary-Kate & Ashley	1.2589	0.0051
+There Goes A...	1.1640	0.0015
+Magic School Bus	1.1183	0.0096
+For the Whole Family	1.0421	0.0098
+Scooby-Doo	0.9029	0.0064
+Rugrats - All Grown Up	0.8773	0.0195
+Bear in the Big Blue House	0.8543	0.0042
+
+
+Class 2
+Fitness	1.0124	0.0132
+Infantil y familiar	0.5319	0.0068
+Spanish Language	0.4438	0.0103
+Drama	0.4320	0.0031
+MGM Home Entertainment	0.4107	0.0004
+Military & War	0.3821	0.0045
+School Days	0.3645	0.0018
+Comedy	0.3318	0.0047
+Ballet & Dance	0.3287	0.0033
+Bible	0.2916	0.0030
+
+

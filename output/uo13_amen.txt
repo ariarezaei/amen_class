@@ -1,0 +1,48 @@
+Class = 1
+Rank:
+1	Kids & Family	0.0158	0.0117	0.0000
+2	3-6 Years	0.0069	0.0363	0.0001
+3	7-9 Years	0.0051	0.0444	0.0001
+4	10-12 Years	0.0030	0.0721	0.0006
+5	Animation	0.0087	0.1116	0.0789
+6	Land Before Time	0.0013	0.1696	0.0372
+7	Dinosaurs	0.0013	0.1766	0.0381
+8	Disney Home Video	0.0011	0.1808	0.0329
+9	Clifford	0.0033	0.1994	0.1090
+10	Mystery	0.0011	0.2027	0.0380
+11	Detectives	0.0011	0.2068	0.0353
+12	Adventure	0.0013	0.2142	0.0672
+13	Adventures of Young Indiana Jones	0.0013	0.2259	0.0670
+14	Action & Adventure	0.0012	0.2359	0.0603
+15	Mystery & Suspense	0.0007	0.2588	0.0372
+16	Indiana Jones	0.0012	0.2603	0.0611
+17	Music Video & Concerts	0.0006	0.2820	0.0380
+18	Videos and DVDs for Babies and Toddlers	0.0009	0.2833	0.0552
+19	Nickelodeon	0.0009	0.2887	0.0623
+20	Mary-Kate & Ashley	0.0008	0.3072	0.0424
+
+
+Class = 2
+Rank:
+1	Comedy	0.0083	0.0108	0.0000
+2	Fitness	0.0070	0.0157	0.0000
+3	Documentary	0.0062	0.0215	0.0000
+4	Horror	0.0032	0.0459	0.0002
+5	Musicals & Performing Arts	0.0029	0.0502	0.0002
+6	Classic Comedies	0.0028	0.0538	0.0003
+7	Yoga	0.0019	0.0766	0.0010
+8	Drama	0.0029	0.0886	0.0127
+9	Musicals	0.0015	0.1001	0.0021
+10	Classic Horror & Monsters	0.0014	0.1081	0.0035
+11	Animals	0.0014	0.1100	0.0044
+12	Christian Video	0.0012	0.1391	0.0101
+13	Science Fiction & Fantasy	0.0014	0.1433	0.0050
+14	Bible	0.0011	0.1494	0.0128
+15	Ma & Pa Kettle	0.0012	0.1752	0.0403
+16	Religion & Spirituality	0.0010	0.1756	0.0070
+17	Nature & Wildlife	0.0009	0.1783	0.0027
+18	Dance	0.0009	0.1821	0.0025
+19	Sports	0.0010	0.1825	0.0133
+20	Leslie Sansone	0.0010	0.1916	0.0499
+
+

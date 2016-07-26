@@ -1,0 +1,46 @@
+Class 1
+Kids & Family	7.762097e-01
+7-9 Years	3.608871e-01
+3-6 Years	3.588710e-01
+10-12 Years	2.560484e-01
+Educational	1.754032e-01
+Nickelodeon	1.653226e-01
+Warner Video Bargains	1.532258e-01
+Holidays & Festivals	8.669355e-02
+Cartoon Network	8.064516e-02
+Charlie Brown & Peanuts	7.862903e-02
+Religion & Spirituality	7.661290e-02
+Birth-2 Years	7.056452e-02
+Videos for Babies and Toddlers	7.056452e-02
+Magic School Bus	6.451613e-02
+Christian Video	6.250000e-02
+Bible	5.846774e-02
+Television	5.040323e-02
+Dinosaurs	5.040323e-02
+Videos and DVDs for Babies and Toddlers	5.040323e-02
+Rugrats - All Grown Up	5.040323e-02
+
+
+Class 2
+Drama	6.145181e-01
+VHS	3.792240e-01
+Musicals & Performing Arts	2.002503e-01
+Musicals	1.814768e-01
+Comedy	1.764706e-01
+Action & Adventure	1.752190e-01
+Love & Romance	1.702128e-01
+Military & War	1.314143e-01
+Romance	1.239049e-01
+Melodrama	1.176471e-01
+Mystery & Suspense	1.113892e-01
+Art House & International	9.511890e-02
+Family Life	7.259074e-02
+Westerns	7.133917e-02
+World War II	6.883605e-02
+Biography	5.381727e-02
+Period Piece	4.630788e-02
+Love Triangle	4.130163e-02
+Romantic Comedies	4.005006e-02
+Infidelity & Betrayal	4.005006e-02
+
+

@@ -1,0 +1,46 @@
+Class 1
+3-6 Years	5.900178e-01
+7-9 Years	5.721925e-01
+10-12 Years	3.778966e-01
+Birth-2 Years	2.352941e-01
+Videos for Babies and Toddlers	2.352941e-01
+Animation	2.245989e-01
+Videos and DVDs for Babies and Toddlers	1.978610e-01
+Nickelodeon	1.568627e-01
+Cartoon Network	8.377897e-02
+Charlie Brown & Peanuts	7.664884e-02
+Barney Videos	7.664884e-02
+Barney	6.417112e-02
+Mary-Kate & Ashley	6.238859e-02
+Magic School Bus	5.704100e-02
+There Goes A...	5.347594e-02
+7-11 Years	4.991087e-02
+For the Whole Family	4.991087e-02
+Rugrats - All Grown Up	4.456328e-02
+Puppets	4.278075e-02
+Disney Home Video	4.099822e-02
+
+
+Class 2
+VHS	8.371014e-01
+Drama	2.686957e-01
+Classics	2.055072e-01
+Comedy	1.542029e-01
+Documentary	1.400000e-01
+Television	1.321739e-01
+Fitness	1.243478e-01
+Action & Adventure	8.028986e-02
+Musicals & Performing Arts	7.971014e-02
+Art House & International	7.362319e-02
+Classic Comedies	6.811594e-02
+Love & Romance	6.579710e-02
+Military & War	6.434783e-02
+Mystery & Suspense	5.768116e-02
+Biography	4.985507e-02
+Musicals	4.956522e-02
+Independently Distributed	4.492754e-02
+Romance	3.826087e-02
+Dance	3.623188e-02
+Nature & Wildlife	3.623188e-02
+
+

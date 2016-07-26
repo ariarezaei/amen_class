@@ -1,0 +1,76 @@
+Class = 1
+Rank:
+1	Kids & Family	0.1622	0.0644	0.0135	0.0139
+2	3-6 Years	0.1622	0.0644	0.0270	0.0278
+3	7-9 Years	0.1622	0.0646	0.0405	0.0417
+4	Clifford	0.1622	0.0645	0.0541	1.0000
+5	10-12 Years	0.1622	0.0647	0.0541	0.1233
+6	Cartoon Network	0.1622	0.0653	0.0676	0.2361
+7	Christian Video	0.1622	0.0644	0.0676	0.2432
+8	Bible	0.1622	0.0658	0.0811	0.2838
+9	Series	0.1622	0.0656	0.0946	0.4730
+10	Greatest Adventure Stories from the Bible	0.1622	0.0658	0.1216	0.5676
+
+
+Utility:
+Kids & Family	1.0000	0.0135	0.0000	1.0000	1.0000
+3-6 Years	0.2431	0.0271	0.0000	0.1528	0.3756
+7-9 Years	0.1370	0.0406	0.0000	0.1089	0.2120
+Clifford	0.1046	0.0879	0.0320	0.0000	0.1613
+10-12 Years	0.0991	0.0721	0.0002	0.0700	0.1535
+Cartoon Network	0.0820	0.0935	0.0017	0.0562	0.1264
+Christian Video	0.0805	0.0981	0.0010	0.0228	0.1241
+Bible	0.0792	0.1126	0.0014	0.0215	0.1222
+Series	0.0689	0.1315	0.0045	0.0081	0.1062
+Greatest Adventure Stories from the Bible	0.0656	0.1499	0.0067	0.0047	0.1012
+
+
+Stability:
+Kids & Family	1.0000	1.0000
+3-6 Years	0.2431	1.0000
+7-9 Years	0.1370	1.0000
+Clifford	0.1046	1.0000
+10-12 Years	0.0991	1.0000
+Cartoon Network	0.0820	1.0000
+Christian Video	0.0805	1.0000
+Bible	0.0792	1.0000
+Series	0.0689	1.0000
+Greatest Adventure Stories from the Bible	0.0656	1.0000
+Class = 2
+Rank:
+1	VHS	Inf	0.0000	0.0196	0.0682
+2	Musicals & Performing Arts	Inf	0.0000	0.0227	0.1020
+3	Comedy	Inf	0.0000	0.0204	0.1042
+4	Drama	Inf	0.0000	0.0588	0.1200
+5	Musicals	Inf	0.0000	0.0784	0.1765
+6	Mystery & Suspense	Inf	0.0000	0.0816	0.1818
+7	Mystery	Inf	0.0000	0.1176	0.3409
+8	Classic Comedies	Inf	0.0000	0.1224	0.3542
+9	Series & Sequels	Inf	0.0000	0.1569	0.2083
+10	Ma & Pa Kettle	Inf	0.0000	0.1961	Inf
+
+
+Utility:
+VHS	1.0000	0.0224	0.0001	0.8588	1.0000
+Musicals & Performing Arts	0.8501	0.0442	0.0002	0.5772	1.0000
+Comedy	0.8151	0.0589	0.0002	0.6106	1.0000
+Drama	0.6393	0.0817	0.0002	0.5022	0.7378
+Musicals	0.5846	0.1005	0.0004	0.3691	0.6897
+Mystery & Suspense	0.5204	0.1195	0.0003	0.2805	0.6385
+Mystery	0.4018	0.1463	0.0014	0.1406	0.4930
+Classic Comedies	0.3749	0.1657	0.0015	0.0979	0.4599
+Series & Sequels	0.3733	0.1774	0.0001	0.1572	0.4580
+Ma & Pa Kettle	0.2345	Inf	NaN	0.0000	0.2877
+
+
+Stability:
+VHS	1.0000	1.0000
+Musicals & Performing Arts	0.8501	1.0000
+Comedy	0.8151	1.0000
+Drama	0.6393	1.0000
+Musicals	0.5846	1.0000
+Mystery & Suspense	0.5204	1.0000
+Mystery	0.4018	1.0000
+Classic Comedies	0.3749	1.0000
+Series & Sequels	0.3733	1.0000
+Ma & Pa Kettle	0.2345	0.9655

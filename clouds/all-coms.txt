@@ -1,0 +1,338 @@
+congress	19.88815
+economics and public finance	10.21832
+law	5.50435
+congressional reporting requirements	2.26929
+crime and law enforcement	1.98338
+small business	1.07092
+environmental protection	0.97757
+minorities	0.56657
+life insurance	0.46451
+disabled	0.36557
+transportation and public works	0.14311
+entitlements	0.08353
+indian housing	0.07446
+ohio	0.06822
+indian lands	0.05464
+authorization	0.04591
+motor vehicle pollution control	0.04266
+interest rates	0.04109
+decision making in public administration	0.04103
+executive impoundment of appropriated funds	0.03450
+congressional veto	0.03444
+senate rules and procedure	0.02439
+drug abuse counseling	0.02211
+cost effectiveness	0.02206
+water resources development	0.02124
+radioactive wastes	0.01949
+consumer protection	0.01789
+federal state relations	0.01539
+subsidiary corporations	0.01107
+new mexico	0.00921
+college sports	0.00835
+debit cards	0.00696
+data banks	0.00632
+congressional newsletters and questionnaires	0.00587
+health facilities	0.00515
+terrorism	0.00508
+department of agriculture	0.00416
+foster home care	0.00406
+firearms	0.00291
+inheritance tax	0.00288
+labeling	0.00279
+health	0.00266
+shipping conferences	0.00248
+carcinogens	0.00214
+television broadcasting of sports	0.00197
+gift tax	0.00174
+collective bargaining	0.00152
+biodegradation	0.00141
+washington state	0.00139
+social welfare	0.00124
+right to die	0.00124
+youth	0.00123
+electronic data interchange	0.00112
+alcoholism	0.00110
+administrative procedure	0.00103
+communicable diseases	0.00103
+sustainable forestry	0.00101
+identification devices	0.00101
+forfeiture	0.00093
+congressional ethics	0.00091
+tax exempt organizations	0.00082
+earthquake engineering	0.00076
+veterans  loans	0.00070
+medical records	0.00070
+black history	0.00069
+congressional allowances	0.00062
+business intelligence	0.00060
+advanced weapons	0.00057
+computer networks	0.00057
+mortgage loans	0.00056
+class actions  civil procedure 	0.00056
+hazardous waste disposal	0.00056
+sentences  criminal procedure 	0.00055
+immigration	0.00048
+surplus government property	0.00048
+investment tax credit	0.00048
+stocks	0.00043
+department of commerce	0.00042
+home repair and improvement	0.00039
+department of the interior	0.00039
+legal fees	0.00034
+housing authorities	0.00033
+electronic data processing	0.00031
+social security taxes	0.00028
+lobbying	0.00025
+new jersey	0.00023
+environmental health	0.00023
+land transfers	0.00022
+insurance premiums	0.00022
+mediation	0.00022
+detention of persons	0.00022
+consumer product safety commission	0.00022
+consumer complaints	0.00022
+damages	0.00021
+government spending reductions	0.00020
+case management	0.00020
+economic growth	0.00020
+air routes	0.00017
+clinics	0.00016
+case mix  medical care 	0.00016
+public opinion	0.00015
+federal aid to research	0.00015
+ex prisoners of war	0.00014
+congressional salaries and pensions	0.00014
+arts  culture  religion	0.00014
+birth control	0.00014
+eye care	0.00013
+savings and loan associations	0.00013
+auditing	0.00012
+indian claims	0.00011
+virginia	0.00011
+marine and coastal resources  fisheries	0.00011
+landfills	0.00011
+securities	0.00011
+postal rates and revenues	0.00011
+congressional investigations	0.00010
+aliens	0.00010
+air quality	0.00010
+migrant labor	0.00009
+automobile industry	0.00009
+emergency management	0.00009
+risk management	0.00009
+widowers	0.00009
+legislative resolutions	0.00008
+armenia	0.00008
+presidential powers	0.00008
+national parks	0.00008
+executive reorganization	0.00008
+fossil fuels	0.00007
+human rights	0.00007
+boating accidents	0.00007
+elementary and secondary education	0.00007
+tax assessment	0.00007
+hawaii	0.00007
+variable rate mortgage loans	0.00007
+conservation of natural resources	0.00007
+fiscal policy	0.00006
+pacific area	0.00006
+public service employment	0.00006
+blind	0.00006
+water conservation	0.00006
+district of columbia	0.00006
+public meetings of administrative bodies	0.00006
+arrest	0.00006
+english language	0.00006
+foreign corporations	0.00006
+civil rights and liberties  minority issues	0.00006
+federal trade commission	0.00005
+raw materials	0.00005
+conversion of industries	0.00005
+marketing of farm produce	0.00005
+warranties	0.00005
+professional sports	0.00005
+state officials and employees	0.00005
+employment of the physically handicapped	0.00005
+telecommunication industry	0.00005
+war and emergency powers	0.00005
+leases	0.00005
+patent agreements	0.00004
+trade agreements	0.00004
+election districts	0.00004
+liability  law 	0.00004
+financial services	0.00004
+congressional record	0.00004
+tax penalties	0.00004
+physicians	0.00004
+defense budgets	0.00004
+pesticide pollution	0.00004
+associations  institutions  etc 	0.00004
+assassination	0.00004
+prison violence	0.00004
+educational television	0.00003
+bank examination	0.00003
+traffic congestion	0.00003
+real estate business	0.00003
+real estate appraisal	0.00003
+government contractors	0.00003
+earnings	0.00003
+military aircraft	0.00003
+black colleges	0.00003
+drug industry	0.00003
+railroad freight operations	0.00003
+parent school relationships	0.00003
+foreign tax credit	0.00003
+mining claims	0.00002
+open market operations	0.00002
+flags	0.00002
+canals	0.00002
+limited access highways	0.00002
+atmospheric research	0.00002
+mineral industries	0.00002
+professions	0.00002
+aviation fuels	0.00002
+nuclear weapons	0.00002
+international agencies	0.00002
+military research	0.00002
+party affiliation	0.00002
+energy	0.00002
+federal budget process	0.00002
+travel agents	0.00002
+medical associations	0.00002
+conferences	0.00002
+military transportation	0.00002
+day care centers for the aged	0.00002
+emergency medical services	0.00002
+bahrain	0.00002
+income tax	0.00001
+open space lands	0.00001
+pedestrians	0.00001
+agricultural subsidies	0.00001
+import restrictions	0.00001
+literature	0.00001
+hearing disorders	0.00001
+budget deficits	0.00001
+governmental investigations	0.00001
+antitank missiles	0.00001
+interstate commissions	0.00001
+actions and defenses	0.00001
+tax expenditures	0.00001
+secondary school students	0.00001
+civil service pensions	0.00001
+state parks	0.00001
+business cycles	0.00001
+dentists	0.00001
+aquatic pests	0.00001
+federal aid to medical research	0.00001
+adult education	0.00001
+tipping	0.00001
+wetlands	0.00001
+saudi arabia	0.00001
+iran	0.00001
+child welfare	0.00001
+chemical weapons	0.00001
+funeral industry	0.00001
+tuition tax credits	0.00001
+draft registration	0.00001
+municipal ordinances	0.00001
+railroad employees	0.00001
+business and social problems	0.00001
+unskilled labor	0.00001
+employee health benefits	0.00001
+federal aid to transportation	0.00001
+layoffs	0.00001
+national seashores	0.00001
+grocery trade	0.00001
+boundaries	0.00001
+tax deductions	0.00001
+federally guaranteed loans	0.00001
+veterans  medical care	0.00001
+physicians  assistants	0.00001
+financial statements	0.00001
+credit unions	0.00001
+computer programming	0.00001
+michigan	0.00001
+foreign loans	0.00000
+paramedical personnel	0.00000
+respite care	0.00000
+local finance	0.00000
+full employment policies	0.00000
+cultural centers	0.00000
+photography	0.00000
+records management	0.00000
+water pollution measurement	0.00000
+burma	0.00000
+competition	0.00000
+internal revenue law	0.00000
+cost accounting	0.00000
+florida	0.00000
+international relief	0.00000
+malpractice	0.00000
+fringe benefits	0.00000
+graduate education	0.00000
+dismissal wage	0.00000
+diseases	0.00000
+central valley reclamation project  california 	0.00000
+war crimes	0.00000
+product safety	0.00000
+fish culture	0.00000
+judicial review of administrative acts	0.00000
+anesthetics	0.00000
+barley	0.00000
+water rights	0.00000
+economic statistics	0.00000
+television programs	0.00000
+problem children	0.00000
+maps	0.00000
+child abuse	0.00000
+promotions	0.00000
+diversification in industry	0.00000
+electronic publishing	0.00000
+copyright infringement	0.00000
+army	0.00000
+day care	0.00000
+television broadcasting	0.00000
+maternal health services	0.00000
+checks	0.00000
+sales tax	0.00000
+alcohol	0.00000
+tax exclusion	0.00000
+cost of living	0.00000
+branch banking	0.00000
+automobile fuel consumption	0.00000
+transportation workers	0.00000
+military aviation	0.00000
+forests  forestry  trees	0.00000
+disability retirement	0.00000
+corporations	0.00000
+recruiting and enlistment	0.00000
+family farms	0.00000
+dental care	0.00000
+space flight	0.00000
+chemicals	0.00000
+navigation	0.00000
+depressed areas	0.00000
+bank holding companies	0.00000
+copyright	0.00000
+mississippi	0.00000
+public records	0.00000
+government consultants	0.00000
+intellectual property	0.00000
+aircraft engines	0.00000
+harbors	0.00000
+oregon	0.00000
+espionage	0.00000
+government ownership	0.00000
+sentencing guidelines	0.00000
+architecture	0.00000
+surety and fidelity	0.00000
+farm lands	0.00000
+massachusetts	0.00000
+injunctions	0.00000
+debarment of government contractors	0.00000
+airline passenger traffic	0.00000
+connecticut	0.00000
+government publications	0.00000
+gardening	0.00000
+ionizing radiation	0.00000
+standards	-0.00697

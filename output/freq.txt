@@ -1,0 +1,26 @@
+Class 1
+Kids & Family	385
+7-9 Years	179
+3-6 Years	178
+10-12 Years	127
+Educational	87
+Nickelodeon	82
+Warner Video Bargains	76
+Holidays & Festivals	43
+Cartoon Network	40
+Charlie Brown & Peanuts	39
+
+
+Class 2
+Drama	491
+VHS	303
+Musicals & Performing Arts	160
+Musicals	145
+Comedy	141
+Action & Adventure	140
+Love & Romance	136
+Military & War	105
+Romance	99
+Melodrama	94
+
+

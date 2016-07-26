@@ -1,0 +1,26 @@
+Class 1
+Kids & Family	1.9942	0.0548
+Nickelodeon	0.7132	0.0423
+Educational	0.4034	0.0498
+Dr. Seuss	0.3368	0.0181
+Magic School Bus	0.3306	0.0529
+Dinosaurs	0.3059	0.0077
+Infantil y familiar	0.2830	0.0092
+Religion & Spirituality	0.2546	0.0127
+Holidays & Festivals	0.2527	0.0014
+3-6 Years	0.2468	0.0116
+
+
+Class 2
+Drama	1.0022	0.0377
+Musicals & Performing Arts	0.7004	0.0213
+Comedy	0.5492	0.0143
+Action & Adventure	0.3933	0.0056
+Westerns	0.3719	0.0249
+Sesame Street	0.3242	0.0121
+Sesame Street Videos	0.2279	0.0102
+French	0.1895	0.0027
+Disney Home Video	0.1883	0.0062
+Orphans	0.1724	0.0074
+
+

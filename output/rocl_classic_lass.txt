@@ -1,0 +1,46 @@
+Class 1
+Metal	1.6969
+Progressive	1.6917
+Supergroups	1.6345
+Progressive Metal	1.4027
+Jam Bands	1.2681
+Pop Metal	1.2143
+Surf Guitar	1.0300
+Post-Punk	1.0216
+Guitar Gods	0.9733
+Proto Punk	0.8807
+Alternative Metal	0.8358
+British Invasion	0.7972
+Alt-Country & Americana	0.7401
+British Metal	0.7268
+American Alternative	0.7242
+Switzerland	0.6973
+Christian Alternative	0.6633
+Shred	0.6081
+Experimental Music	0.5820
+British Folk	0.5681
+
+
+Class 2
+Symphonies	1.1156
+Swing Jazz	1.0174
+Chamber Music	0.9772
+Vocal Jazz	0.9525
+Motown	0.8415
+Concertos	0.7267
+Suites	0.7123
+Vocal Non-Opera	0.7051
+Strings	0.6914
+ECM Records	0.6600
+General Modern	0.6596
+Baroque (c.1600-1750)	0.6554
+Languages	0.6138
+ECM Jazz & World	0.6131
+Comedy	0.5605
+Sonatas	0.4991
+Keyboard	0.4978
+Easy Listening	0.4631
+Traditional & Vocal Pop	0.4611
+The Decca Records Store	0.4262
+
+
