@@ -76,8 +76,8 @@ end
 
 K = 10;
 
-[~, ave_fw,~] = lasso_repeat(F, nodes, cRange, K);
-lasso_res = lasso_feature(ave_fw, F_label);
+[~, ave_fw,var_fw] = lasso_repeat(F, nodes, cRange, K);
+lasso_res = lasso_feature(ave_fw, var_fw, F_label);
 
 % ------------------------- FREQUENCY --------------------------------
 

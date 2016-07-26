@@ -1,46 +1,46 @@
 Class 1
-3-6 Years	1.7578
-7-9 Years	1.6256
-10-12 Years	1.4280
-Kids & Family	1.2799
-Birth-2 Years	1.0680
-7-11 Years	0.6892
-There Goes A...	0.5473
-Videos for Babies and Toddlers	0.5246
-Videos and DVDs for Babies and Toddlers	0.5149
-Little Bear	0.4384
-Disney Home Video	0.3904
-Richard Scarry's World	0.3864
-Dragon Tales	0.3786
-Charlie Brown & Peanuts	0.3729
-Clifford	0.3356
-For the Whole Family	0.2897
-Animation	0.2733
-Barney	0.2708
-From the Brothers Grimm	0.2431
-Sony Pictures Home Entertainment	0.2337
+7-9 Years	1.6094	0.0000
+3-6 Years	1.5520	0.0000
+10-12 Years	1.2693	0.0371
+Kids & Family	1.1533	0.0000
+Birth-2 Years	0.8637	0.0000
+7-11 Years	0.6321	0.0093
+Videos for Babies and Toddlers	0.6175	0.0002
+There Goes A...	0.5939	0.0000
+Videos and DVDs for Babies and Toddlers	0.5082	0.0000
+Little Bear	0.3954	0.0000
+Richard Scarry's World	0.3693	0.0013
+Disney Home Video	0.3599	0.0113
+Dragon Tales	0.3488	0.0000
+Animation	0.3038	0.0001
+Clifford	0.2997	0.0000
+Charlie Brown & Peanuts	0.2910	0.0020
+For the Whole Family	0.2852	0.0589
+Sony Pictures Home Entertainment	0.1911	0.0000
+Barney	0.1897	0.0028
+Mary-Kate & Ashley	0.1759	0.0010
 
 
 Class 2
-Teaching & School	0.2680
-Animated Cartoons	0.2613
-Infantil y familiar	0.2105
-Eyewitness	0.1842
-Love & Romance	0.1822
-Fitness	0.1722
-Bible	0.1566
-Classics	0.1563
-Schoolhouse Rock	0.1444
-Shalom Sesame	0.1441
-Scary Movies & Mysteries	0.1342
-Franklin	0.1208
-Christmas	0.1168
-Blue's Clues Videos	0.1148
-TV Shows	0.1112
-Ballet	0.1095
-MGM Home Entertainment	0.1064
-Sesame Street	0.1063
-Travel Videos	0.1050
-Race Relations	0.1015
+Teaching & School	0.2423	0.0001
+Infantil y familiar	0.1824	0.0000
+Animated Cartoons	0.1619	0.0012
+Fitness	0.1408	0.0008
+Eyewitness	0.1313	0.0000
+Love & Romance	0.1257	0.0004
+Classics	0.1216	0.0006
+Shalom Sesame	0.1095	0.0173
+Blue's Clues Videos	0.1062	0.0000
+Bible	0.1021	0.0000
+Ballet & Dance	0.0949	0.0003
+Scary Movies & Mysteries	0.0931	0.0013
+Franklin	0.0911	0.0000
+Christmas	0.0907	0.0000
+Parenting & Childcare	0.0803	0.0013
+TV Shows	0.0781	0.0000
+Ballet	0.0775	0.0000
+Race Relations	0.0751	0.0059
+Animals	0.0747	0.0000
+Documentary	0.0693	0.0019
 
 

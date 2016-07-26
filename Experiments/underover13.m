@@ -1,9 +1,12 @@
 
 load dataset\amazon-Video.mat
 
-feats = {'Under 13', 'Over 13'};
-[amen_res, lasso_res, freq_res, amen_obj] = main_do(A, F, F_label, ...
-    dataset_name, feats, feats);
+feats = {'Under 13'; 'Over 13'};
+classes = feats;
+% [amen_res, lasso_res, freq_res, amen_obj] = main_do(A, F, F_label, ...
+%     dataset_name, feats, feats);
+
+main_do;
 
 io_stability(amen_res, 'output/uo13_amen.txt', 20);
 io_freqFeatures(freq_res, 'output/uo13_freq.txt', 20);

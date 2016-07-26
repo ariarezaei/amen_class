@@ -1,46 +1,46 @@
 Class 1
-Kids & Family	1.8836
-Nickelodeon	0.7241
-Educational	0.4015
-Dinosaurs	0.3421
-Dr. Seuss	0.3384
-Holidays & Festivals	0.3097
-Infantil y familiar	0.3093
-7-9 Years	0.3066
-Dragon Tales	0.2430
-Religion & Spirituality	0.2428
-Franklin	0.2191
-Batman Beyond	0.2023
-Magic School Bus	0.2017
-Bible	0.1953
-3-6 Years	0.1904
-Tom & Jerry	0.1510
-Clifford	0.1465
-Independently Distributed	0.1347
-Learning Languages	0.1213
-Leaders	0.1208
+Kids & Family	1.8525	0.0001
+Nickelodeon	0.6709	0.0000
+Educational	0.4347	0.0069
+Dinosaurs	0.3811	0.0000
+Holidays & Festivals	0.3516	0.0000
+7-9 Years	0.3429	0.0057
+Dr. Seuss	0.3394	0.0000
+Dragon Tales	0.3276	0.0000
+Infantil y familiar	0.2798	0.0018
+Franklin	0.2658	0.0000
+Magic School Bus	0.2596	0.0000
+Religion & Spirituality	0.2488	0.0176
+Batman Beyond	0.2342	0.0000
+Clifford	0.1791	0.0000
+Tom & Jerry	0.1722	0.0000
+Bible	0.1652	0.0000
+Animal Action	0.1398	0.0000
+Leaders	0.1181	0.0079
+Learning Languages	0.1153	0.0009
+Independently Distributed	0.1146	0.0000
 
 
 Class 2
-Drama	0.9682
-Musicals & Performing Arts	0.6575
-Comedy	0.5963
-Westerns	0.3849
-Action & Adventure	0.3781
-Sesame Street Videos	0.2986
-Mystery & Suspense	0.2199
-Cartoon Network	0.1906
-Orphans	0.1825
-French	0.1724
-Disney Home Video	0.1599
-Childhood Drama	0.1593
-Scooby-Doo	0.1472
-Sesame Street	0.1468
-Shalom Sesame	0.1404
-Music Videos	0.1389
-Art House & International	0.1320
-Adventure	0.1246
-Ralph Bakshi	0.1215
-Horses	0.1183
+Drama	1.0224	0.0000
+Musicals & Performing Arts	0.6489	0.0000
+Comedy	0.5910	0.0002
+Westerns	0.3850	0.0006
+Action & Adventure	0.3671	0.0010
+Sesame Street Videos	0.2958	0.0000
+Mystery & Suspense	0.2698	0.0000
+French	0.1763	0.0000
+Cartoon Network	0.1754	0.0005
+Orphans	0.1667	0.0000
+Childhood Drama	0.1582	0.0000
+Music Videos	0.1569	0.0024
+Shalom Sesame	0.1437	0.0000
+Sesame Street	0.1412	0.0162
+Disney Home Video	0.1384	0.0000
+Scooby-Doo	0.1294	0.0000
+Art House & International	0.1289	0.0001
+From the Brothers Grimm	0.1222	0.0025
+Nothing Goes Right	0.1186	0.0000
+Horses	0.1172	0.0032
 
 
