@@ -1,6 +1,8 @@
 
 load dataset\amazon-Video.mat
 
+[~, idx] = util_findByFeatureName(F_label, 'years');
+[F, F_label] = util_removeFeatureById(F, F_label, idx);
 feats = {'Under 13'; 'Over 13'};
 classes = feats;
 % [amen_res, lasso_res, freq_res, amen_obj] = main_do(A, F, F_label, ...
