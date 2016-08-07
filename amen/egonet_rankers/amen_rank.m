@@ -1,4 +1,4 @@
-function [ ranking, scores, data_scores ] = amen_rank( A, X_Total, varargin )
+function [ ranking, scores ] = amen_rank( A, X_Total, varargin )
 %AMEN_RANK Rank egonets by their amen circle normality score
 %   Detailed explanation goes here
 
@@ -8,6 +8,7 @@ function [ ranking, scores, data_scores ] = amen_rank( A, X_Total, varargin )
     addOptional(parser,'max_degree', 100);    
     addOptional(parser,'norm', 'L1'); 
     addOptional(parser,'node_filter', []);     
+    addOptional(parser,'continuous_features', 0);
 
     varargin{:};
     parse(parser, varargin{:});    
@@ -16,7 +17,8 @@ function [ ranking, scores, data_scores ] = amen_rank( A, X_Total, varargin )
     max_degree = parser.Results.max_degree
     p_norm = parser.Results.norm
     node_filter = parser.Results.node_filter;    
-
+    continuous_features = parser.Results.continuous_features;    
+    
     degrees = sum(A,2);
     M = nnz(A)/2;
     
@@ -28,7 +30,6 @@ function [ ranking, scores, data_scores ] = amen_rank( A, X_Total, varargin )
     egos = find(node_filter);
 
     ego_scores = zeros(1,numel(egos));
-    data_scores = zeros(numel(egos), size(X_Total,2));
     
     X_Total_Transpose = X_Total.';
     
@@ -41,10 +42,9 @@ function [ ranking, scores, data_scores ] = amen_rank( A, X_Total, varargin )
 %         [ci, ~, ~] = find(X_Total_Transpose(:,egonet_community));        
         X = []; 
         
-        [~, weighted_score, cur_data_score] = amen_learn_weights( A, X, egonet_community, degrees,  M, p_norm, @amen_objective, X_Total_Transpose );       
+        [~, weighted_score] = amen_learn_weights( A, X, egonet_community, degrees,  M, p_norm, @amen_objective, X_Total_Transpose, continuous_features);       
         
-        ego_scores(i) = weighted_score;
-        data_scores(i,:) = cur_data_score;
+        ego_scores(i) = weighted_score;        
     end
     
     % sort all egos by score

@@ -14,9 +14,9 @@ for polId =1:numel(feats)
         idx = util_findFeature(labels, feats{polId});
 
         if (idx == -1)
-            prcntl(cng, polId) = 1;
+            prcntl(cng, polId) = 0;
         else
-            y = amen_res{cng}{party}{idx,3};
+            y = amen_res{cng}{party}{idx,2};
             prcntl(cng, polId) = y;
         end
     end

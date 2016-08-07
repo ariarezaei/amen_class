@@ -30,9 +30,9 @@ coms = cell(numel(feats),1);
 hubs = cell(numel(feats), 1);
 fprintf('Retrieving communities\n');
 
-% if (exist(['cpp/graph/' graphname '.edge'], 'file') ~= 2)
+if (exist(['cpp/graph/' graphname '.edge'], 'file') ~= 2)
     io_save_graph_cpp(A, ['cpp/graph/' graphname '.edge']);
-% end
+end
 for cls = 1:numel(feats)
     % Saving SEEDS and FILE Structure for the local clustering code
     

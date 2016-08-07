@@ -1,8 +1,4 @@
 Class 1
-3-6 Years	0.5900
-7-9 Years	0.5722
-10-12 Years	0.3779
-Birth-2 Years	0.2353
 Videos for Babies and Toddlers	0.2353
 Animation	0.2246
 Videos and DVDs for Babies and Toddlers	0.1979
@@ -14,11 +10,15 @@ Barney	0.0642
 Mary-Kate & Ashley	0.0624
 Magic School Bus	0.0570
 There Goes A...	0.0535
-7-11 Years	0.0499
 For the Whole Family	0.0499
 Rugrats - All Grown Up	0.0446
 Puppets	0.0428
 Disney Home Video	0.0410
+Bear in the Big Blue House	0.0392
+Blue's Clues	0.0374
+Blue's Clues Videos	0.0374
+Little Bear	0.0357
+Richard Scarry's World	0.0285
 
 
 Class 2

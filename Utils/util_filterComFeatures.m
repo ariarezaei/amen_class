@@ -7,7 +7,6 @@ used_features = zeros(1, k_feats);
 
 for cls = 1:m_classes
     for i=1:numel(coms{cls})
-        fprintf('%d\t%d\n', cls, i);
         F_com = sum(F(coms{cls}{i},:)) >= 1;
         used_features = used_features | F_com;
     end

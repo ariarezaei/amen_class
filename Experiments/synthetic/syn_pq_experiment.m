@@ -42,18 +42,29 @@ for plowIdx = 1:numel(p_lows)
     score_ratio(plowIdx, :) = mean(cur_score_ratio);
 end
 
-% styles = {'-o', '-s', '-+' ,'-d', '-x', '--'};
-% 
+styles = {'-o', '-s', '-s' ,'-d', '-x', '--'};
+goods = [1 3];
 % figure();
 % for i=1:numel(methods)
-% plot(feats, objective_score(:,i), styles{i}, 'LineWidth', 1.5);
+% plot(feats, score_ratio(:,i), styles{i}, 'LineWidth', 1.5);
 % hold on;
 % end
 % legend(methods, 'Location' ,'NorthWest');
+
+figure();
+for idx=1:numel(goods)
+    i = goods(idx);
+plot(1:numel(p_lows), score_ratio(:,i), styles{i}, 'LineWidth', 1.5, 'MarkerSize', 7.5);
+hold on;
+end
+axis tight;
 % 
-% figure(2);
-% for i=1:numel(methods)
-% plot(feats, running_time(:,i), styles{i}, 'LineWidth', 1.5, 'MarkerSize', 7.5);
-% hold on;
+% P = 0.05:0.1:0.95;
+% Pstr = {};
+% for i=1:numel(P)
+%     Pstr{end+1} = num2str(P(i));
 % end
-% legend(methods, 'Location' ,'NorthWest');
+% Pstr = fliplr(Pstr);
+% set(gca, 'XTickLabel', Pstr);
+legend(methods(goods), 'Location', 'SouthWest');
+legend(methods, 'Location' ,'NorthWest');

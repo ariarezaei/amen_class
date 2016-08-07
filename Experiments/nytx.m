@@ -1,6 +1,6 @@
 load dataset/gplus.mat
 
-classes = {{'bronx', 'queens, ny', 'queens, new york', 'manhattan', ', ny', 'new york,', 'nyc'}, {'texas', ', texas', 'tx'}};
+classes = {{'bronx', 'queens, ny', 'queens, new york', 'manhattan', 'new york,', 'nyc'}, {'texas', ', texas', 'tx'}};
 [C, ~, ~] = util_class(P, P_label, classes);
 feats = {'New Yorker'; 'Texan'};
 

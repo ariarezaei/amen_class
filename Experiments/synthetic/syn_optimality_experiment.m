@@ -1,6 +1,6 @@
 n_coms = 100;
 m_targets = 2;
-methods = {'SWP', 'Greedy' ,'Simplified', 'Top-3', 'Top-5', 'Top-10'};
+methods = {'SWA', 'Greedy' ,'Simplified', 'Top-3', 'Top-5', 'Top-10'};
 k_methods = numel(methods);
 experiments = 10;
 
@@ -35,14 +35,14 @@ for featIdx = 1:numel(feats)
     score_ratio(featIdx, :) = mean(cur_score_ratio);
 end
 
-% styles = {'-o', '-s', '-+' ,'-d', '-x', '--'};
-% 
-% figure();
-% for i=1:numel(methods)
-% plot(feats, objective_score(:,i), styles{i}, 'LineWidth', 1.5);
-% hold on;
-% end
-% legend(methods, 'Location' ,'NorthWest');
+styles = {'-o', '-s', '-+' ,'-d', '-x', '--'};
+
+figure();
+for i=[1 3 4 5]
+plot(feats, score_ratio(:,i), styles{i}, 'LineWidth', 1.5);
+hold on;
+end
+legend(methods, 'Location' ,'NorthWest');
 % 
 % figure(2);
 % for i=1:numel(methods)

@@ -4,7 +4,7 @@ years = 1994:2:2008;
 years = years';
 lbl = {};
 for year=1994:2:2008
-    lbl{end+1} = [num2str(year-1) '-' num2str(year+1)];
+    lbl{end+1} = [num2str(year)];
 end
 
 
@@ -25,9 +25,9 @@ hold on;
 % else
 %     plot([2002,2002], [0, max(max(y))], '-b');
 % end
-axis tight;
+% axis tight;
 
 set(gca,'XTickLabel',lbl, 'XTickLabelRotation', 45);
-set(gca, 'YLim', [0,1]);
+% set(gca, 'YLim', [0,1]);
 
 end

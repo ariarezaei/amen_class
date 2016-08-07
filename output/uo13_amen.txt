@@ -1,48 +1,48 @@
 Class = 1
 Rank:
-1	Kids & Family	0.0158	0.0120	0.0000
-2	3-6 Years	0.0069	0.0354	0.0000
-3	7-9 Years	0.0051	0.0466	0.0001
-4	10-12 Years	0.0030	0.0904	0.0175
-5	Animation	0.0087	0.1026	0.0708
-6	Clifford	0.0033	0.1446	0.0690
-7	Land Before Time	0.0013	0.1900	0.0518
-8	Dinosaurs	0.0013	0.1951	0.0518
-9	Disney Home Video	0.0011	0.2071	0.0441
-10	Adventure	0.0013	0.2202	0.0766
-11	Adventures of Young Indiana Jones	0.0013	0.2310	0.0745
-12	Action & Adventure	0.0012	0.2522	0.0715
-13	Mystery	0.0011	0.2597	0.0652
-14	Detectives	0.0011	0.2619	0.0629
-15	Videos and DVDs for Babies and Toddlers	0.0009	0.2621	0.0343
-16	Indiana Jones	0.0012	0.2688	0.0675
-17	Nickelodeon	0.0009	0.2893	0.0559
-18	Music Video & Concerts	0.0006	0.3007	0.0497
-19	Rugrats - All Grown Up	0.0008	0.3110	0.0548
-20	Mystery & Suspense	0.0007	0.3216	0.0589
+1	Kids & Family	0.1023	0.0001	0.9866
+2	Animation	0.0580	0.0006	0.8368
+3	VHS	0.0322	0.0001	0.8936
+4	Clifford	0.0141	0.0000	0.8713
+5	Action & Adventure	0.0115	0.0000	0.8326
+6	Adventure	0.0097	0.0000	0.8089
+7	Adventures of Young Indiana Jones	0.0097	0.0000	0.7969
+8	Dinosaurs	0.0095	0.0000	0.8109
+9	Cartoon Network	0.0094	0.0000	0.6734
+10	Indiana Jones	0.0092	0.0000	0.7720
+11	Land Before Time	0.0089	0.0000	0.7782
+12	Sony Pictures Home Entertainment	0.0089	0.0000	0.7662
+13	Nickelodeon	0.0079	0.0000	0.7483
+14	Videos and DVDs for Babies and Toddlers	0.0077	0.0000	0.7491
+15	Dragon Tales	0.0072	0.0000	0.6704
+16	Detectives	0.0072	0.0000	0.7544
+17	Mystery	0.0066	0.0000	0.7389
+18	Mystery & Suspense	0.0059	0.0000	0.7025
+19	Rugrats - All Grown Up	0.0057	0.0000	0.6749
+20	Independently Distributed	0.0052	0.0000	0.6620
 
 
 Class = 2
 Rank:
-1	Comedy	0.0083	0.0116	0.0000
-2	Fitness	0.0070	0.0151	0.0000
-3	Documentary	0.0062	0.0208	0.0000
-4	Horror	0.0032	0.0467	0.0005
-5	Musicals & Performing Arts	0.0029	0.0510	0.0002
-6	Classic Comedies	0.0028	0.0528	0.0002
-7	Drama	0.0029	0.0835	0.0111
-8	Yoga	0.0019	0.0840	0.0015
-9	Musicals	0.0015	0.0950	0.0011
-10	Classic Horror & Monsters	0.0014	0.1112	0.0105
-11	Animals	0.0014	0.1146	0.0040
-12	Christian Video	0.0012	0.1343	0.0095
-13	Bible	0.0011	0.1446	0.0119
-14	Science Fiction & Fantasy	0.0014	0.1567	0.0127
-15	Religion & Spirituality	0.0010	0.1689	0.0057
-16	Ma & Pa Kettle	0.0012	0.1723	0.0378
-17	Nature & Wildlife	0.0009	0.1772	0.0017
-18	Sports	0.0010	0.1830	0.0139
-19	Greatest Adventure Stories from the Bible	0.0009	0.1836	0.0181
-20	Dance	0.0009	0.1889	0.0034
+1	Comedy	0.0165	0.0000	0.9915
+2	Fitness	0.0131	0.0000	0.9837
+3	Documentary	0.0122	0.0000	0.9809
+4	Classic Comedies	0.0087	0.0000	0.9656
+5	Musicals & Performing Arts	0.0073	0.0000	0.9590
+6	Horror	0.0061	0.0000	0.9437
+7	Musicals	0.0053	0.0000	0.9288
+8	Bible	0.0047	0.0000	0.9125
+9	Christian Video	0.0047	0.0000	0.9079
+10	Yoga	0.0045	0.0000	0.9068
+11	Religion & Spirituality	0.0044	0.0000	0.8949
+12	Classic Horror & Monsters	0.0044	0.0000	0.8832
+13	Greatest Adventure Stories from the Bible	0.0043	0.0000	0.8807
+14	Ma & Pa Kettle	0.0040	0.0000	0.8377
+15	Animals	0.0036	0.0000	0.8820
+16	Nature & Wildlife	0.0035	0.0000	0.8735
+17	Biography	0.0034	0.0000	0.8640
+18	English & Reading	0.0031	0.0000	0.8116
+19	Drama	0.0030	0.0000	0.8106
+20	Monsters	0.0027	0.0000	0.7598
 
 

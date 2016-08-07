@@ -41,18 +41,28 @@ for featIdx = 1:numel(feats)
     end
 end
 
-% styles = {'-o', '-s', '-+' ,'-d', '-x', '--'};
-% 
-% figure();
-% for i=1:numel(methods)
-% plot(feats, objective_score(:,i), styles{i}, 'LineWidth', 1.5);
-% hold on;
-% end
-% legend(methods, 'Location' ,'NorthWest');
-% 
-% figure(2);
-% for i=1:numel(methods)
-% plot(feats, running_time(:,i), styles{i}, 'LineWidth', 1.5, 'MarkerSize', 7.5);
-% hold on;
-% end
-% legend(methods, 'Location' ,'NorthWest');
+styles = {'-o', '-s', '-+' ,'-d', '-x', '--'};
+goods = [1 3 4 5 6];
+figure();
+
+mo = max(objective_score, [], 2);
+mo = mo(:, ones(size(objective_score,2),1));
+score_ratio = objective_score ./ mo;
+
+figure();
+for idx=1:numel(goods)
+    i = goods(idx);
+    plot(feats, score_ratio(:,i), styles{i}, 'LineWidth', 1.5);
+    hold on;
+end
+axis tight;
+legend(methods, 'Location' ,'NorthWest');
+
+figure(2);
+for idx=1:numel(goods)
+    i = goods(idx);
+    plot(feats, running_time(:,i), styles{i}, 'LineWidth', 1.5, 'MarkerSize', 7.5);
+    hold on;
+end
+set(gca, 'XLim', [min(feats) max(feats)]);
+legend(methods(goods), 'Location' ,'NorthWest');

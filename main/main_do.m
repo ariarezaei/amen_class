@@ -35,7 +35,7 @@ end
 [F,F_label] = util_filterComFeatures(coms, F, F_label);
 
 % Finding AMEN weights
-[Xs, ~, ~, new_label] = main_getAmenWeights(A, F, F_label, ...
+[Xs, comScores, amenHubs, new_label, ~] = main_getAmenWeights(A, F, F_label, ...
     feats, coms, comHubs);
 
 % Finding partitioning
@@ -49,29 +49,27 @@ end
 
 % Filtering by confidence/stability
 exp_num = 100;
-[ave_rank, var_rank] = stat_stabilityAll(Xs, part, feats, new_label, exp_num);
+[ave_rank, var_rank, ave_util, var_util] = stat_stabilityAll(Xs, part, feats, new_label, exp_num);
 
 amen_res = cell(m_classes, 1);
 for cls = 1:m_classes
-    amen_res{cls} = cell(numel(util_label{cls}),3);
+    amen_res{cls} = cell(numel(util_label{cls}),5);
     for i=1:numel(util_label{cls})
         amen_res{cls}{i,1} = util_label{cls}{i};
-        amen_res{cls}{i,2} = util{cls}(i,2);
-        amen_res{cls}{i,3} = ave_rank{cls}(i);
-        amen_res{cls}{i,4} = var_rank{cls}(i);
+        amen_res{cls}{i,2} = ave_util{cls}(i);
+        amen_res{cls}{i,3} = var_util{cls}(i);
+        amen_res{cls}{i,4} = ave_rank{cls}(i);
+        amen_res{cls}{i,5} = var_rank{cls}(i);
     end
-    amen_res{cls} = sortrows(amen_res{cls}, 3);
+    amen_res{cls} = sortrows(amen_res{cls}, [-2 -4]);
 end
 
 % -------------------- LOGISTIC REGRESSION --------------------------
 cRange = 2 .^ (-10:10);
 F = main_F;
 F_label =  main_label;
-nodes = {};
-for cls = 1:numel(feats)
-    fid = util_findFeature(F_label, feats{cls});
-    nodes{cls} = find(F(:,fid));
-end
+nodes = util_findMembers(F, F_label, feats);
+
 [F,F_label] = util_removeFeatures(F,F_label,feats);
 
 K = 10;

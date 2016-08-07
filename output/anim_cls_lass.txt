@@ -1,46 +1,46 @@
 Class 1
-Kids & Family	1.8525	0.0001
-Nickelodeon	0.6709	0.0000
-Educational	0.4347	0.0069
-Dinosaurs	0.3811	0.0000
-Holidays & Festivals	0.3516	0.0000
-7-9 Years	0.3429	0.0057
-Dr. Seuss	0.3394	0.0000
-Dragon Tales	0.3276	0.0000
-Infantil y familiar	0.2798	0.0018
-Franklin	0.2658	0.0000
-Magic School Bus	0.2596	0.0000
-Religion & Spirituality	0.2488	0.0176
-Batman Beyond	0.2342	0.0000
-Clifford	0.1791	0.0000
-Tom & Jerry	0.1722	0.0000
-Bible	0.1652	0.0000
-Animal Action	0.1398	0.0000
-Leaders	0.1181	0.0079
-Learning Languages	0.1153	0.0009
-Independently Distributed	0.1146	0.0000
+Kids & Family	2.1065	0.0000
+Nickelodeon	0.7966	0.0006
+Dr. Seuss	0.5312	0.0038
+Educational	0.5263	0.0000
+Warner Video Bargains	0.5028	0.0001
+7-9 Years	0.4528	0.0000
+Dragon Tales	0.3902	0.0001
+Holidays & Festivals	0.3556	0.0196
+Christmas	0.3355	0.0000
+Religion & Spirituality	0.3169	0.0374
+Charlie Brown & Peanuts	0.3048	0.0000
+Franklin	0.2912	0.0019
+Dinosaurs	0.2757	0.0014
+Cartoon Network	0.2553	0.0000
+Animal Action	0.2470	0.0033
+Clifford	0.2018	0.0018
+Infantil y familiar	0.1993	0.0242
+Independently Distributed	0.1650	0.0033
+Parenting & Childcare	0.1628	0.0040
+Tom & Jerry	0.1560	0.0099
 
 
 Class 2
-Drama	1.0224	0.0000
-Musicals & Performing Arts	0.6489	0.0000
-Comedy	0.5910	0.0002
-Westerns	0.3850	0.0006
-Action & Adventure	0.3671	0.0010
-Sesame Street Videos	0.2958	0.0000
-Mystery & Suspense	0.2698	0.0000
-French	0.1763	0.0000
-Cartoon Network	0.1754	0.0005
-Orphans	0.1667	0.0000
-Childhood Drama	0.1582	0.0000
-Music Videos	0.1569	0.0024
-Shalom Sesame	0.1437	0.0000
-Sesame Street	0.1412	0.0162
-Disney Home Video	0.1384	0.0000
-Scooby-Doo	0.1294	0.0000
-Art House & International	0.1289	0.0001
-From the Brothers Grimm	0.1222	0.0025
-Nothing Goes Right	0.1186	0.0000
-Horses	0.1172	0.0032
+Drama	1.3942	0.0006
+Comedy	1.1946	0.0000
+Musicals & Performing Arts	0.6030	0.0000
+Action & Adventure	0.6017	0.0049
+Westerns	0.5861	0.0138
+Musicals	0.5090	0.0004
+Sesame Street	0.5052	0.0000
+French	0.4033	0.0000
+Puppets	0.3666	0.0045
+Melodrama	0.3093	0.0000
+Birth-2 Years	0.2787	0.0057
+Orphans	0.2713	0.0002
+Sea Adventure	0.2687	0.0000
+Horses	0.2491	0.0000
+Mystery	0.2468	0.0006
+From the Brothers Grimm	0.2257	0.0000
+Shalom Sesame	0.2204	0.0003
+Music & Dance	0.2010	0.0030
+Down on Their Luck	0.1921	0.0032
+Silent Films	0.1843	0.0016
 
 

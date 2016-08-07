@@ -11,14 +11,14 @@ Cartoon Network	0.0806
 Charlie Brown & Peanuts	0.0786
 Religion & Spirituality	0.0766
 Birth-2 Years	0.0706
-Videos for Babies and Toddlers	0.0706
 Magic School Bus	0.0645
 Christian Video	0.0625
 Bible	0.0585
 Television	0.0504
 Dinosaurs	0.0504
-Videos and DVDs for Babies and Toddlers	0.0504
 Rugrats - All Grown Up	0.0504
+Christmas	0.0423
+Blue's Clues	0.0423
 
 
 Class 2
