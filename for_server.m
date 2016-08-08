@@ -1,19 +1,17 @@
 load server.mat;
+load dataset/dblp.mat;
+
+index = true(numel(F_label), 1);
+for i=1:2
+    x = util_findFeature(F_label, feats{i});
+    index(x) = false;
+end
+
+F = F(:,index);
+F_label = F_label(index);
 
 F(F > 0) = 1;
 F(F ~= 1) = 0;
-
-for cls = 1:numel(coms)
-    
-    n_coms = numel(coms{cls});
-    idx = 1:n_coms;
-    idx = randsample(idx, 200);
-    
-    coms{cls} = coms{cls}(idx);
-    comHubs{cls} = comHubs{cls}(idx);
-    
-    
-end
 
 [Xs, comScores, amenHubs, new_label, ~] = main_getAmenWeights(A, F, F_label, feats, coms, comHubs);
 
@@ -29,7 +27,7 @@ for cls=1:numel(feats)
 end
 
 % Filtering by confidence/stability
-exp_num = 100;
+exp_num = 1;
 [ave_rank, var_rank, ave_util, var_util] = stat_stabilityAll(Xs, part, feats, new_label, exp_num);
 
 amen_res = cell(m_classes, 1);
@@ -44,16 +42,3 @@ for cls = 1:m_classes
     end
     amen_res{cls} = sortrows(amen_res{cls}, [-2 -4]);
 end
-
-% -------------------- LOGISTIC REGRESSION --------------------------
-cRange = 2 .^ (-10:10);
-F = main_F;
-F_label =  main_label;
-nodes = util_findMembers(F, F_label, feats);
-
-[F,F_label] = util_removeFeatures(F,F_label,feats);
-
-K = 10;
-
-[~, ave_fw,var_fw] = lasso_repeat(F, nodes, cRange, K);
-lasso_res = lasso_feature(ave_fw, var_fw, F_label);
