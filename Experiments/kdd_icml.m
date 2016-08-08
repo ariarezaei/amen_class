@@ -1,20 +1,24 @@
 load dataset/dblp.mat
 
-feats = {'KDD'; 'SIGCOMM'};
+feats = {'Theor. Comput. Sci.'; 'ICC'};
 [C, F, F_label] = util_class(F, F_label, feats);
 C(C>0) = 1;
 main_F = [F C];
 main_label = [F_label; feats];
 nodes = util_findMembers(C, feats, feats);
 
-K = 1000;
-D = sum(A);
-kdd = util_getTopKDegree(nodes{1}, D, K);
-sigcomm = util_getTopKDegree(nodes{2}, D, K);
+for cls =1:2
+    idx = 1:numel(nodes{cls});
+    idx = randsample(idx, 100);
+    nodes{cls} = nodes{cls}(idx);
+    
+    selected = false(size(A,1), 1);
+    selected(nodes{cls}) = true;
+    
+    C(:,cls) = zeros(size(A,1),1);
+    C(selected, cls) = 1;
+end
 
-c1 = zeros(size(A,1), 1);   c1(kdd) = 1;
-c2 = zeros(size(A,1), 1);   c2(sigcomm) = 1;
-C = [c1 c2];
 
 [coms, comHubs, ~] = main_getComs(A, C, feats, feats, dataset_name);
 
