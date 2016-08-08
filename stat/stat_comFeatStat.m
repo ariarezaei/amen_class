@@ -24,11 +24,13 @@ stats = cell(2,1);
 for cls=1:m_classes
     other = 3 - cls;
     pure_nodes = setdiff(nodes{cls}, nodes{other});
+    pure_other = setdiff(nodes{other}, nodes{cls});
+    all_nodes = union(nodes{cls}, nodes{other});
     for i=1:numel(label{cls})
         idx = util_findFeature(F_label, label{cls}{i});
         
         if ( idx == -1)
-            fprintf('%s not found for class %d\n', label{cls}{i}, cls);
+            fprintf('Lbl{%d}(%d) = %s not found\n', cls, i, label{cls}{i});
             return;
         end
 
@@ -45,7 +47,8 @@ for cls=1:m_classes
         end
         
         % Relative node discrimination
-        rel_node_dis = sum(F(pure_nodes,idx))/sum(F(union(nodes{cls},nodes{other}),idx));
+        rel_node_dis = sum(F(pure_nodes,idx))/sum(F(:,idx)) - ...
+            sum(F(pure_other,idx))/sum(F(:, idx));
         if (isnan(rel_node_dis))
             rel_node_dis = 0;
         end

@@ -1,7 +1,21 @@
 load server.mat;
 
-[Xs, comScores, amenHubs, new_label, ~] = main_getAmenWeights(A, F, F_label, ...
-    feats, coms, comHubs);
+F(F > 0) = 1;
+F(F ~= 1) = 0;
+
+for cls = 1:numel(coms)
+    
+    n_coms = numel(coms{cls});
+    idx = 1:n_coms;
+    idx = randsample(idx, 200);
+    
+    coms{cls} = coms{cls}(idx);
+    comHubs{cls} = comHubs{cls}(idx);
+    
+    
+end
+
+[Xs, comScores, amenHubs, new_label, ~] = main_getAmenWeights(A, F, F_label, feats, coms, comHubs);
 
 save('AMEN_dblp.mat', 'Xs', 'comScores', 'amenHubs', 'new_label');
 

@@ -38,6 +38,8 @@ for cls=1:numel(amen_res)
     fprintf('CHAR:\t%.3f\t%.3f\n', amen_char_score, lasso_char_score);
     fprintf('DISC:\t%.3f\t%.3f\n', amen_disc_score, lasso_disc_score);
     fprintf('\n\n');
+    
+%     break;
 end
 
 % end

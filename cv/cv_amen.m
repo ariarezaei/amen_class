@@ -1,6 +1,7 @@
 function [acc, vip_acc] = cv_amen(A, F, F_label, dataset_name, feats)
 % (A, F, coms, comHubs, Xs, amenHubs, new_col, feats)
-
+is_binary = (numel(unique(F(:))) == 2);
+continous_features = ~is_binary;
 
 degrees = sum(A,2);
 M = nnz(A)/2;
@@ -36,11 +37,11 @@ for cls = 1:m_classes
         
         this_F = F_transpose(newPart{cls},:);
         [~, this_score, ~] = amen_learn_weights( A, [], coms{cls}{i}, degrees, ...
-            M, p_norm, @amen_objective, this_F );   
+            M, p_norm, @amen_objective, this_F, continous_features );   
         
         other_F = F_transpose(newPart{3-cls},:);
         [~, other_score, ~] = amen_learn_weights( A, [], coms{cls}{i}, degrees, ...
-            M, p_norm, @amen_objective, other_F );   
+            M, p_norm, @amen_objective, other_F, continous_features );   
         
         if (this_score > other_score)
             pred(end+1) = true;

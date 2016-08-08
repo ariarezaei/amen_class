@@ -24,7 +24,7 @@ for cls=1:m_classes
         util{cls}(f,1) = cur_feat;
         util{cls}(f,2) = sum(Xs{cls}(:,cur_feat))/n_coms - ...
             sum(Xs{3-cls}(:, cur_feat))/n_other;
-%         util{cls}(f,2) = stat_featRelUtil(Xs, cls, part, cur_feat);
+% %         util{cls}(f,2) = stat_featRelUtil(Xs, cls, part, cur_feat);
 %         util{cls}(f,3) = stat_featAbsUtil(Xs{cls}, part{cls}, cur_feat);
     end
     
@@ -42,7 +42,7 @@ for cls=1:m_classes
 end
 
 % fprintf('Max of 1 is %.3f, Max of 2 is %.3f\n', max(util{1}(:,2)), max(util{2}(:,2)));
-
+% 
 max_util = max(max(util{1}(:,2)), max(util{2}(:,2)));
 min_util = min(min(util{1}(:,2)), min(util{2}(:,2)));
 

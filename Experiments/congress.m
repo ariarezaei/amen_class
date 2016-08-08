@@ -5,7 +5,8 @@
 % connectivity_threshold = .95;
 
 all_amen = {};
-all_freq = {};
+all_astat = {};
+all_lstat = {};
 all_lasso = {};
 all_obj = {};
 
@@ -38,11 +39,20 @@ for congNum = 103:110
 %     end
     
     all_amen{idx} = amen_res;
-    all_freq{idx} = freq_res;
     all_lasso{idx} = lasso_res;
-    all_obj{idx} = amen_obj;
     
-%     break;
+    nodes = util_findMembers(C, feats, feats);
+    
+    amen_lbl{1} = amen_res{1}(:,1);
+    amen_lbl{2} = amen_res{2}(:,1);
+    
+    lasso_lbl{1} = lasso_res{1}(:,1);
+    lasso_lbl{2} = lasso_res{2}(:,1);
+    
+    all_astat{idx} = stat_comFeatStat([], nodes, F, F_label, amen_lbl, .25);
+    all_lstat{idx} = stat_comFeatStat([], nodes, F, F_label, lasso_lbl, .25);
+    
+    break;
     
 %     
 %     X = F;
